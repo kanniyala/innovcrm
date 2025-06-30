@@ -68,7 +68,7 @@ export default function LoginPage() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
             <Zap className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl logo-gradient">SalesPro</span>
+            <span className="font-bold text-xl logo-gradient">Wellnox CRM</span>
           </Link>
           <Link href="/" className="text-sm text-gray-600 hover:text-primary flex items-center gap-2">
             <ArrowLeft className="h-4 w-4" />

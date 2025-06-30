@@ -8,7 +8,7 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'SalesPro CRM',
+  title: 'Wellnox CRM',
   description: 'Modern CRM system for sales teams',
   icons: {
     icon: '/favicon.ico',

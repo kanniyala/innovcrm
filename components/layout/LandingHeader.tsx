@@ -12,24 +12,36 @@ export function LandingHeader() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="flex items-center text-primary">
-              <Zap className="h-8 w-8 stroke-[1.5]" />
-              <span className="font-bold text-2xl logo-gradient ml-1">SalesPro</span>
+              <img src="/logo.png" alt="Logo" className="h-8" />
+                            <span className="font-bold text-lg">CRM</span>
+
             </div>
           </Link>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link href="/#features" className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="/#features"
+              className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
+            >
               Features
             </Link>
-            <Link href="/#pricing" className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="/#pricing"
+              className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
+            >
               Pricing
             </Link>
-            <Link href="/login" className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="/login"
+              className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
+            >
               Sign in
             </Link>
             <Link href="/register">
-              <Button size="sm" className="shadow-sm">Get Started</Button>
+              <Button size="sm" className="shadow-sm">
+                Get Started
+              </Button>
             </Link>
           </nav>
 
